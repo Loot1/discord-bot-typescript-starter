@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { Client, Collection, GatewayIntentBits } from 'discord.js';
 import { config } from "./config";
-import { CustomClient } from './types/customClient';
+import { CustomClient } from './types/CustomClient';
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] }) as CustomClient;
 

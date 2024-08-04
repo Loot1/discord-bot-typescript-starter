@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "start": "node build/index.js",
-    "build": "tsup src/index.ts --minify"
+    "build": "tsup src/index.ts --minify",
+    "commands-update": "tsx src/deploy-commands.ts"
   },
   "author": "Loot1",
   "license": "ISC",

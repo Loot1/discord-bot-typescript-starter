@@ -1,5 +1,5 @@
 import { Events, Interaction } from "discord.js";
-import { CustomClient } from "../types/customClient";
+import { CustomClient } from "../types/CustomClient";
 
 module.exports = {
 	name: Events.InteractionCreate,
