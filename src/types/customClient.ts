@@ -1,5 +1,5 @@
 import { Client, Collection } from "discord.js";
 
 export interface CustomClient extends Client {
-    commands: Collection<string, any>
+    commands: Collection<string, any>;
 }

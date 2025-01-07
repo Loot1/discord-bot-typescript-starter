@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "start": "node build/index.js",
+    "lint": "eslint src",
     "build": "tsup src/index.ts --minify",
     "commands-update": "tsx src/deploy-commands.ts"
   },
@@ -12,12 +13,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "discord.js": "^14.15.3",
-    "dotenv": "^16.4.5"
+    "discord.js": "^14.17.2",
+    "dotenv": "^16.4.7"
   },
   "devDependencies": {
-    "tsup": "^8.2.4",
-    "tsx": "^4.16.5",
-    "typescript": "^5.5.4"
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
   }
 }
